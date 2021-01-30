@@ -18,3 +18,12 @@ print(dftrain.head())
 
 y_train = dftrain.pop('survived')
 y_eval = dfeval.pop('survived')
+
+dftrain.head()
+
+dftrain.describe()
+dftrain.shape
+
+y_train.head()
+
+dftrain.age.hist(bins=10)
